@@ -1,0 +1,171 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+     "responses": ["Hello there. How can I help you?", "Hi there. How can I help you?"]
+    },
+    {"tag": "morning",
+        "patterns": ["Good morning"],
+        "responses": ["Good morning. How can I help you? "]
+    },
+    {"tag": "afternoon",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How can I help you?"]
+    },
+    {"tag": "evening",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How can I help you?"]
+    },
+    {"tag": "night",
+        "patterns": ["Good night"],
+        "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+     "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "no-response",
+        "patterns": [""],
+        "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+    },
+    {"tag": "neutral-response",
+        "patterns": ["nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me more about yourself.", "What is your name?", "What should I call you?", "What's your name?", "Tell me about yourself" ],
+     "responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today", "I'm Pandora, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.", "I'm Pandora. I am a conversational agent designed to mimic a therapist. So how are you feeling today?", "You can call me Pandora.", "I'm Pandora!", "Call me Pandora"]
+    },
+    {"tag": "provincial offences court offices",
+        "patterns": ["Where can I find provincial offences court offices?", "What provincial offences court offices are available?"],
+        "responses": ["<p>Provincial offences court offices:</p><p>West - Main office</p> <p>Central - Satellite office</p><p>East - Satellite office</p>Here's a link for the <a href='https://ottawa.ca/en/parking-roads-and-travel/parking-and-provincial-offences-act-tickets#' target='_blank'> provincial offences court offices</a> page"]
+    },
+    {"tag": "Time of provincial offences court offices",
+        "patterns": ["When are the provincial offences court offices open?", "What time are provincial offences court offices open?", "What time do provincial offences court offices open?"],
+        "responses": ["<p>Provincial offences court offices are open Monday to Friday from 8:30 am to 4:30 pm.</p><p>Here's a link for the <a href='https://ottawa.ca/en/parking-roads-and-travel/parking-and-provincial-offences-act-tickets#' target='_blank'>provincial offences court offices</a> page.</p>"]
+    },
+    {"tag": "Parking ticket options",
+        "patterns": ["what are my parking ticket options?", "what options do I have for parking tickets?"],
+        "responses": ["Here’s a link for the <a href='https://ottawa.ca/en/parking-roads-and-travel/parking-and-provincial-offences-act-tickets#section-9afc2fe8-2929-42b8-bb18-6103d9e07dc0' target='_blank'> parking ticket options</a> page"]
+    },
+    {"tag": "Parking tickets payment",
+        "patterns": ["How do I pay my parking ticket?", "how can I pay for my parking tickets?", "how can I pay for my parking tickets?","Paying for parking tickets","Paying for parking ticket","Pay a parking ticket"],
+        "responses": ["<p>Accepted payment options: Visa, MasterCard, Visa Debit, Mastercard Debit, American Express</p><p>Unaccepted payment options: pre-paid or reloadable cards or gift cards</p>You can find more information about ticket payments from the following <a href='https://ottawa.ca/en/parking-roads-and-travel/parking-and-provincial-offences-act-tickets#section-9afc2fe8-2929-42b8-bb18-6103d9e07dc0' traget='_blank'> link</a>"]
+    },
+    {"tag": "Review a parking ticket",
+        "patterns": ["How do I review a parking ticket?","How do I review a parking ticket?","I want to review a parking ticket.","Review a parking ticket"],
+        "responses": ["You can review your parking ticket by submitting a <a href='https://forms.ottawa.ca/en/form/ics/service-ottawa/notice-of-intention-to-appear' target='_blank'>parking ticket review request</a> application"]
+    },
+    {"tag": "Requesting a trial date",
+        "patterns": ["How can I request a trial date?","How do I request a trial date?","Trial date"],
+        "responses": ["<p>If you would like to request a trial date, complete the <a href='https://forms.ottawa.ca/en/form/ics/service-ottawa/notice-of-intention-to-appear' target='_blank'> Notice of Intention to Appear (NIA)</a> form.</p>Trial Request Updates: If your request for trial is approved, you will receive a trial date in the mail. To find out the status of your case, please visit the <a href='https://forms.ottawa.ca/en/form/ics/service-ottawa/notice-of-intention-to-appear' target='_blank'>Provincial Court Look-up Tool</a> "]
+    },
+    {"tag": "infraction number",
+        "patterns": ["Where can I find my ticket infraction number?","ticket infraction number","how do I find my ticket infraction number?"],
+        "responses": ["The following link will help you find your <a href='https://ottawa.ca/en/parking-roads-and-travel/parking-and-provincial-offences-act-tickets#section-071ad92f-db29-4845-bcd0-446ba09385ac'target='_blank'>infraction number</a>."]
+    },
+    {"tag": "Ticket Images",
+        "patterns": ["How do I find ticket images","Ticket images"],
+        "responses": ["The following link will help you find your <a href='https://ottawa.ca/en/parking-roads-and-travel/parking-and-provincial-offences-act-tickets#section-c845e965-2cee-4e5e-8133-1a24ba065b14'target='_blank'>ticket images</a>."]
+    },
+    {"tag": "City parking lots",
+        "patterns": ["Where are the city parking lots?","Where are the municipal parking lots?","City parking lots","Municipal parking lots"],
+        "responses": ["The following link will help you find the <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/municipal-parking-lots#section-5cf297d8-fd77-47b1-8def-3807af5fbb5b 'target='_blank'>list of municipal parking lots</a>."]
+    },
+    {"tag": "fact-18",
+        "patterns": ["How can I find a mental health professional right for my child or myself?"],
+        "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."]
+    },
+    {"tag": "Paying on foot",
+        "patterns": ["Can I pay for my parking on foot?","Where can I pay for my parking on foot?","Can I pay for parking on foot?"],
+        "responses": ["<p>You can Pay on Foot at the following City parking lots:</p><ul><li>141 Clarence Street</li><li>70 Clarence Street</li><li>110 Laurier Avenue West</li></ul><p>Payment methods: Cash (25¢, $1, $2 coins and bills) and credit cards</p>The following link shows you how to pay on foot <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/municipal-parking-lots#section-85a81ca8-2e16-43ba-864c-7a2153b2bab6'target='_blank'>pay on foot</a>."]
+    },
+    {"tag": "Parking map",
+        "patterns": ["Where can I find the parking map?","Parking map?","Do you have a parking map?"],
+        "responses": ["The following link shows you the <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/street-parking#section-e00896f1-6917-4af2-8684-2f15aa6a2f2a 'target='_blank'>parking map</a>."]
+    },
+    {"tag": "Pay and display machines",
+        "patterns": ["How to use a Pay and Display machine?","Pay and display machine?","How do I use a pay and display machines? "],
+        "responses": ["<ol><li>Make payment using one of the the following methods:</li><ol type='a'><li>Insert coins into the slot until the display shows the desired parking time.</li><li>Insert your credit card with the magnetic stripe down and to the right and quickly remove it. Press the blue button on the left to purchase time in 25¢ increments, until the screen displays the desired parking time. Press the blue button on the right to purchase the maximum parking time.</li></ol><li>Press the green button to print your receipt.</li><li>Take the receipt from the bottom right slot of the dispenser.</li><li>Place the receipt on the dashboard of your vehicle with the expiration time in plain view.</li></ol><p>The following link will give you more information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/street-parking#section-ec6b86ae-c834-402b-86a8-44b7dc7e011e'target='_blank'>pay and display machines</a>.</p>"]
+    },
+    {"tag": "Pay for parking by phone",
+        "patterns": ["How to pay for parking by phone?","How do I pay for parking by phone?"],
+        "responses": ["<ol><li>Register for an account:</li><ol type='a'><li>Visit <a href='https://www.paybyphone.com/'target='_blank'>PayByPhone.com.</a></li><li>Download the <a href='https://apps.apple.com/us/app/paybyphone/id448474183'target='_blank'>iPhone</a>  or <a href='https://play.google.com/store/apps/details?id=com.paybyphone'target='_blank'>Android</a> app.</li><li>Call 613-691-1700. </li></ol><li>Provide your phone number, credit card number and license plate number.</li><li>After parking, visit <a href='https://www.paybyphone.com/'target='_blank'>PayByPhone.com</a>, open the app on your phone or call 613-691-1700.</li><li>Enter your parking location number, found on a sticker on the side of the closest Pay and Display parking machine on the side of the street that you parked.</li><li>Select the amount of time you would like to park. Parking time is not transferable to other locations.</li><li>To extend your parking session, visit <a href='https://www.paybyphone.com/'target='_blank'>PayByPhone.com</a>, open the app on your phone or call 613-691-1700.</li></ol>"]
+    },
+    {"tag": "On street parking restrictions",
+        "patterns": ["what are the on-street parking restrictions?","parking restrictions"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/street-parking#section-88b43860-9c1d-4c62-94c2-b4aacb0da407'target='_blank'>on street parking restrictions</a>."]
+    },
+    {"tag": "Report a problem for pay and display machines",
+        "patterns": ["I want to report a problem for pay and display machines.","How do I report a problem for pay and display machines?","report a problem for pay and display machines."],
+        "responses": ["You can report a problem for pay and display machine using the following <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/municipal-parking-lots/report-problem-pay-and-display-machine'target='_blank'>link.</a>"]
+    },
+    {"tag": "Winter weather parking ban",
+        "patterns": ["Is there a winter weather parking ban?","Are there any weather parking bans?","Where do I park during a winter parking ban?"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/winter-parking#section-95077379-fa2c-42b6-a506-ada036d9f7c8 'target='_blank'>winter weather parking bans.</a>"]
+    },
+    {"tag": "Towed cars",
+        "patterns": ["How to find my car if it was towed?","How do I find my car if it was towed?","Find my towed car."],
+        "responses": ["Towed vehicles are usually moved to a nearby street where snow removal has already taken place. If you cannot find your vehicle, call 3-1-1."]
+    },
+    {"tag": "Report an Illegally parked vehicle",
+        "patterns": ["How do I Report an Illegally parked vehicle?","Report an Illegally parked vehicle.","Report an Illegally parked car?","How do I report a car parked at disabled parking spaces?"],
+        "responses": ["The following link will help you report an <a href='https://ottawa.ca/en/3-1-1/report-or-request/parking'target='_blank'>illegally parked vehicle.</a>"]
+    },
+    {"tag": "Parking permits",
+        "patterns": ["How do I get a parking permit?","Parking permit","How do I get a parking permit?"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/parking-permits#'target='_blank'>parking permits.</a>"]
+    },
+    {"tag": "Seasonal beach parking passes",
+        "patterns": ["How do I get a seasonal beach parking pass?","Seasonal beach parking pass"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/parking-permits#section-aa305a21-180d-4f6c-9341-69eadd1b705b'target='_blank'>seasonal beach parking passes.</a>"]
+    },
+    {"tag": "Motorhome and tour bus parking",
+        "patterns": ["Can I park my Motorhome in a city parking?","Motorhome and tour bus parking","tour bus parking","where can I park my tour bus?"],
+        "responses": [" The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/motorhome-and-tour-bus-parking#'target='_blank'>motorhome and tour bus parking.</a>"]
+    },{"tag": "Bike parking and repair stands",
+        "patterns": ["Bike parking","Where can I park my bike?","Repair stands","Bike racks","Report bike racks ","Bicycle parking","Where can I park my bicycle?","How can I report a bike rack"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/active-transportation/bike-parking-and-repair-stands#'target='_blank'>bike parking, racks, and repair stands.</a>"]
+    },
+    {"tag": "Holiday parking regulations",
+        "patterns": ["Are there any holiday parking regulations?","holiday parking regulations"],
+        "responses": ["<p>All City of Ottawa parking regulations and restrictions will apply on statutory holidays.</p>Check out <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/regulations-and-restrictions#section-445598e4-bbcc-4ae0-8fc9-9a09d3c6a5c1'target='_blank'>holiday parking regulations</a> for more information"]
+    },
+    {"tag": "Parking infractions and associated fines",
+        "patterns": ["What are the parking fines?","Fines for parking","How much fine ","how much are fines for parking"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/regulations-and-restrictions#section-4d0650e2-15ba-49cf-89f3-e42292df34a6'target='_blank'>Parking infractions and associated fines.</a>"]
+    },
+    {"tag": "deputization program",
+        "patterns": ["deputization program","what is the deputization program?","How can I find the deputization program?"],
+        "responses": ["The following link will give you information about the <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/regulations-and-restrictions#section-c3324008-70fb-478c-bc13-9e2cbae13e41'target='_blank'>deputization program.</a>"]
+    },
+    {"tag": "Parking strategy and studies",
+        "patterns": ["Parking strategy and studies","Parking strategy and studies","Parking Stakeholder Consultation Group (PSCG)","The Parking Stakeholder Consultation Group (PSCG)"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/parking-strategy-and-studies# 'target='_blank'>parking strategy and studies.</a>"]
+    },
+    {"tag": "Snow plowing and clearing",
+        "patterns": ["When does plowing start?","When does snow plowing start?"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/roads-sidewalks-and-pathways/snow-plowing-and-clearing#'target='_blank'>snow plowing and clearing.</a>"]
+    },
+        {"tag": "Road and sidewalk maintenance reports",
+        "patterns": ["How do I report a deficiency in road conditions?","How do I report a problem with a road?","How do I report a problem with a sidewalk?","How do I report a problem with a pathway?","How do I report a problem with a pothole on the road?","How do I report a problem with an issue with catch basins on the road?","How do I report an abandoned shopping cart on the road?","How do I report a dead animal on the road?","How do I report a problem with a street lighting?"],
+        "responses": ["The following link will help you report all problems related to <a href='https://ottawa.ca/en/3-1-1/report-or-request/road-and-sidewalk-maintenance 'target='_blank'>roads and sidewalks.</a>"]
+    },
+    {"tag": "Road Maintenance",
+        "patterns": ["When are potholes repaired?","Potholes maintenance"],
+        "responses": ["The following link will help you find information about <a href='https://ottawa.ca/en/3-1-1/report-or-request/road-and-sidewalk-maintenance 'target='_blank'>road maintenance problems.</a>"]
+    },
+    {"tag": "spring clean-up and street sweeping",
+        "patterns": ["Street sweeping","Spring clean-up"],
+        "responses": ["The following link will help you find information about <a href='https://ottawa.ca/en/parking-roads-and-travel/roads-sidewalks-and-pathways/general-road-and-sidewalk-maintenance#section-859cf34d-7d11-4517-94f5-3615908e92d2 'target='_blank'>spring clean-up and street sweeping.</a>"]
+    },
+    {"tag": "Motorcycle, scooter, and e-scooter parking",
+        "patterns": ["How do I pay for Motorcycle, scooter and e-scooter parking?", "How do I pay for Motorcycle parking?","How do I pay for scooter parking?","Motorcycle, scooter and e-scooter parking","Scooter parking","Motorcycle parking"],
+        "responses": ["The following link will give you information about <a href='https://ottawa.ca/en/parking-roads-and-travel/parking/motorcycle-scooter-and-e-scooter-parking# 'target='_blank'>motorcycle, scooter and e-scooter parking.</a>"]
+    }
+
+    ]
+}
